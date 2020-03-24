@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CADE84CF242AB76600C36A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE84CE242AB76600C36A50 /* AppDelegate.swift */; };
 		CADE84D1242AB76600C36A50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE84D0242AB76600C36A50 /* SceneDelegate.swift */; };
-		CADE84D3242AB76600C36A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE84D2242AB76600C36A50 /* ViewController.swift */; };
+		CADE84D3242AB76600C36A50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE84D2242AB76600C36A50 /* MainViewController.swift */; };
 		CADE84D6242AB76600C36A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADE84D4242AB76600C36A50 /* Main.storyboard */; };
 		CADE84D8242AB76700C36A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADE84D7242AB76700C36A50 /* Assets.xcassets */; };
 		CADE84DB242AB76700C36A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADE84D9242AB76700C36A50 /* LaunchScreen.storyboard */; };
+		CADE84E3242AC12500C36A50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE84E2242AC12500C36A50 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CADE84CB242AB76600C36A50 /* WebViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADE84CE242AB76600C36A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CADE84D0242AB76600C36A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CADE84D2242AB76600C36A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CADE84D2242AB76600C36A50 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CADE84D5242AB76600C36A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CADE84D7242AB76700C36A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CADE84DA242AB76700C36A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CADE84DC242AB76700C36A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADE84E2242AC12500C36A50 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				CADE84CE242AB76600C36A50 /* AppDelegate.swift */,
 				CADE84D0242AB76600C36A50 /* SceneDelegate.swift */,
-				CADE84D2242AB76600C36A50 /* ViewController.swift */,
+				CADE84D2242AB76600C36A50 /* MainViewController.swift */,
 				CADE84D4242AB76600C36A50 /* Main.storyboard */,
 				CADE84D7242AB76700C36A50 /* Assets.xcassets */,
 				CADE84D9242AB76700C36A50 /* LaunchScreen.storyboard */,
 				CADE84DC242AB76700C36A50 /* Info.plist */,
+				CADE84E2242AC12500C36A50 /* TableViewController.swift */,
 			);
 			path = WebViewExample;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CADE84D3242AB76600C36A50 /* ViewController.swift in Sources */,
+				CADE84D3242AB76600C36A50 /* MainViewController.swift in Sources */,
 				CADE84CF242AB76600C36A50 /* AppDelegate.swift in Sources */,
 				CADE84D1242AB76600C36A50 /* SceneDelegate.swift in Sources */,
+				CADE84E3242AC12500C36A50 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
